@@ -31,6 +31,7 @@ polygon-edge genesis \
 - Example of the genesis command:
   ````bash
   polygon-edge genesis \
+  --consensus ibft \
   --bootnode="/ip4/127.0.0.1/tcp/10001/p2p/16Uiu2HAm1qywzWk8tFe1QhvfVuBcQfQ1zqjs67owpEM8NqUcUsRt" \
   --bootnode="/ip4/127.0.0.1/tcp/10002/p2p/16Uiu2HAmHAEeyCiaQ5B4d2ESeVJ1QwBXZLxHwe546oRHAA9dYYQ9" \
   --bootnode="/ip4/127.0.0.1/tcp/10003/p2p/16Uiu2HAmMznsbWMraJqngiMwEdQRg23o6UsUvdHaxg5StLzoH2vM" \
