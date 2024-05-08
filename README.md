@@ -47,5 +47,5 @@ polygon-edge server --data-dir ./<name_of_the_node> --chain genesis.json --libp2
 - This command starts the polygon-edge node.
 - Example of the start command:
   ````bash
-  polygon-edge server --data-dir ./node-1 --chain genesis.json --grpc-address 0.0.0.0:20001 --libp2p 0.0.0.0:10001 --jsonrpc 0.0.0.0:30001 -- seal
+  polygon-edge server --data-dir ./test-chain-1 --chain genesis.json --grpc-address 0.0.0.0:20001 --libp2p 0.0.0.0:10001 --jsonrpc 0.0.0.0:30001 -- seal
   ````
