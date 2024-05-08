@@ -42,11 +42,10 @@ polygon-edge genesis \
 
 ### Start the Node
 ````bash
-polygon-edge server --data-dir ./<name_of_the_node> --chain genesis.json --libp2p :<port> --jsonrpc :<port2> --grpc-address :<port3> -- seal
+polygon-edge server --data-dir ./<name_of_the_node> --chain genesis.json --libp2p 0.0.0.0:<port> --jsonrpc 0.0.0.0:<port2> --grpc-address 0.0.0.0:<port3> -- seal
 ````
 - This command starts the polygon-edge node.
 - Example of the start command:
   ````bash
-  polygon-edge server --data-dir ./node-1 --chain genesis.json --grpc-address :20001 --libp2p :10001 --jsonrpc :30001 -- seal
+  polygon-edge server --data-dir ./node-1 --chain genesis.json --grpc-address 0.0.0.0:20001 --libp2p 0.0.0.0:10001 --jsonrpc 0.0.0.0:30001 -- seal
   ````
-<!-- add example of the start command -->
