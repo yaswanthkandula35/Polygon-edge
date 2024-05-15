@@ -32,10 +32,10 @@ polygon-edge genesis \
   ````bash
   polygon-edge genesis \
   --consensus ibft \
-  --bootnode="/ip4/127.0.0.1/tcp/10001/p2p/16Uiu2HAm1qywzWk8tFe1QhvfVuBcQfQ1zqjs67owpEM8NqUcUsRt" \
-  --bootnode="/ip4/127.0.0.1/tcp/10002/p2p/16Uiu2HAmHAEeyCiaQ5B4d2ESeVJ1QwBXZLxHwe546oRHAA9dYYQ9" \
-  --bootnode="/ip4/127.0.0.1/tcp/10003/p2p/16Uiu2HAmMznsbWMraJqngiMwEdQRg23o6UsUvdHaxg5StLzoH2vM" \
-  --bootnode="/ip4/127.0.0.1/tcp/10004/p2p/16Uiu2HAm5oVbhWMpDQKK8mvd77LBcgdrn9yRSK1yyQXeP5sTL5Ei" \
+  --bootnode="/ip4/10.147.18.155/tcp/10001/p2p/16Uiu2HAmUrgETWsWrkcodefm348MpNfUWWmaTFhtnU9giTk595EN" \
+--bootnode="/ip4/10.147.18.147/tcp/10001/p2p/16Uiu2HAmCNFveoPRf6QgHzmUDrSqXiRcXxWBuqPy1c2xNgs78tWi" \
+--bootnode="/ip4/10.147.18.22/tcp/10001/p2p/16Uiu2HAkwaxgWFgvhfduUhc2qT9W4Me7SPxMRWhdSZqfXkTAZggE" \
+--bootnode="/ip4/10.147.18.93/tcp/10001/p2p/16Uiu2HAm2F7wiXfj9E5h2bUzYfYumr4L3ZFcgmSYyL2LpcPMUJ76" \
   --premine=0x800285058e7F9b58014D82A1502BAc9F4317cf96:1000000000000000000000 \
   ````
 <!-- add example of th genesis command -->
